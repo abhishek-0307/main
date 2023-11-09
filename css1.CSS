@@ -1,0 +1,15 @@
+
+    body{
+        background-color: yellow;
+    }
+    table,th,td{
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    ul{
+        color: red;
+    }
+   
+   
+    
+
