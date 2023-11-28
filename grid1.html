@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.m {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  gap: 10px;
+  background-color:bisque; 
+  padding-left: 150px;
+
+}
+
+.m > div {
+  background-color:darksalmon;
+  text-align: center;
+  padding: 10px ;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-area: 1 / 1/span 4/span 2;
+}
+.item2{
+	grid-area: 1/6/span 4;
+}
+.item3{
+   grid-area: 1/3/span 3;
+}
+.item4{
+    grid-area: 1/4/span 3;
+}
+.item8{
+    grid-area: 5/1/span 6/span 3;
+}
+.item9{
+   /* grid-column: 4/span 3; */
+  /* grid-area: 5/4/span 4/span 3; */
+  grid-row: 5/span 6;
+}
+.item5{
+    grid-area: 1/5/span 3;
+}
+.item6{
+    grid-column: 3/span 3;
+}
+.item10{
+    grid-row: 5/span 6;
+}
+
+.m:hover > div{
+    background-color: brown;
+}
+.m:active{
+    background-color: aqua;
+}
+.m:active > div{
+    background-color: orangered;
+}
+span:hover{
+    background-color: aqua;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="m">
+  <div class="item1 "><img  src="IMAGES/durga.jpg" height="300px" width="280px"></div>
+  <div class="item2"><img src="IMAGES/hanuman.jpg" height="300px" width="100px"></div>
+  <div class="item3"><img src="IMAGES/ganesh.jpg" height="220px" width="100px" ></div>  
+  <div class="item4"><img src="IMAGES/krishna.jpg" height="220px" width="100px"></div>
+  <div class="item5"><img src="IMAGES/shiva.jpg" height="220px" width="100px"></div>
+  <div class="item6"><span>GOD'S GALLERY</span></div>
+  <div class="item8"><img src="IMAGES/vishnu.jpg" height="300px" width="400px"></div>  
+  <div class="item9"><img src="IMAGES/ayyapa.jpg" height="300px" width="110px"></div>
+  <div class="item10"><img src="IMAGES/narshima.jpg" height="300px" width="100px"></div>
+  <div class="item7"><img src="IMAGES/venkatesh.jpg"></div>  
+  <div class="item"><img src="IMAGES/laxmi.jpg"></div>
+ 
+</div>
+
+</body>
+</html>
+
+
