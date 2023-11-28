@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        @keyframes pole {
+            from{top: 0px;left: 0px;opacity: -2;}
+            to{top: 40px;left:125px ; height: 450px;opacity: 1;}
+        }
+        .m{
+            height: 250px;
+            width: 15px;
+            border: 1px solid black;
+            border-radius: 12px;
+            animation-name: pole;
+            position: relative;
+            animation-duration: 10s;
+            background: linear-gradient(orange,white,green);
+        }
+        @keyframes flag {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            50%{top: 20px;left: 90px;width: 50px;height: 50px;opacity: -1;}
+            100%{top:70px;left: 150px;width: 200px;height: 100px;opacity: 1;}
+             }
+        .n{
+            height: 10px;
+            width: 10px;
+            animation-name: flag;
+            position:absolute;
+            animation-duration: 10s;
+        }
+        @keyframes base {
+            from{top: 0px;left: 0px;opacity: -0.2;}
+            to{top: 20px;left: 115px;opacity: 1;background-color: orange;}
+            
+        }
+        .b{
+            border: 1px solid black;
+            height: 15px;
+            width: 40px;
+            animation-name: base;
+            animation-duration: 10s;
+            position: relative;
+        }
+        @keyframes base1 {
+            from{top: 0px;left: 0px;opacity: -0.2;}
+            to{top: 20px;left: 105px;opacity: 1;background-color: white;}
+            
+        }
+
+        .b1{
+            border: 1px solid black;
+            height: 15px;
+            width: 60px;
+            animation-name: base1;
+            animation-duration: 10s;
+            position: relative;
+        }
+        @keyframes base2 {
+            from{top: 0px;left: 0px;opacity: -0.2;}
+            to{top: 20px;left: 98px;opacity: 1;background-color: green;}
+            
+        }
+
+        .b2{
+            border: 1px solid black;
+            height: 15px;
+            width: 80px;
+            animation-name: base2;
+            animation-duration: 10s;
+            position: relative;
+        }
+        @keyframes stu {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-150px;left:350px;width: 300px;height: 200px;opacity: 1;}
+             }
+        .s{
+        
+            height: 10px;
+            width: 10px;
+            animation-name: stu;
+            position:relative;
+            animation-duration: 10s;
+        
+        }
+        @keyframes sold {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-400px;left:350px;width: 200px;height: 150px;opacity: 1;}
+             }
+        .s1{
+        
+            height: 10px;
+            width: 10px;
+            animation-name: sold;
+            position:relative;
+            animation-duration: 10s;
+        
+        }
+        @keyframes ind {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-400px;left:355px;width: 200px;font-size: 100px;opacity: 1;}
+             }
+        .s2{
+        
+            height: 10px;
+            width: 10px;
+            animation-name: ind;
+            position:relative;
+            animation-duration: 10s;
+           color:blue;
+            
+        
+        }
+        @keyframes star1 {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-545px;left:-555px;width: 15px;height: 15px;opacity: 1;border-radius: 50%;background-color:  red;}
+            }
+             
+        .s3{
+            height: 10px;
+            width: 10px;
+            animation: star1 10s;
+            position:relative;
+            
+        }
+        @keyframes star2 {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-510px;left:-595px;width: 15px;height: 15px;opacity: 1;border-radius: 50%;background-color: red red;}
+            }
+             
+        .s4{
+            height: 10px;
+            width: 10px;
+            animation: star2 10s;
+            position:relative;
+            
+        }
+        @keyframes star3 {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-480px;left:-525px;width: 15px;height: 15px;opacity: 1;border-radius: 50%;background-color: red red;}
+            }
+             
+        .s5{
+            height: 10px;
+            width: 10px;
+            animation: star3 10s;
+            position:relative;
+            
+        }
+        @keyframes star4 {
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-400px;left:-555px;width: 15px;height: 15px;opacity: 1;border-radius: 50%;}
+            }
+             
+        .s6{
+            height: 10px;
+            width: 10px;
+            animation: star4 10s;
+            position:relative;
+            
+        }
+        @keyframes quo{
+            0%{top: 0px;left: 30px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-600px;left:-210px;width: 50px;font-size: 30px;opacity: 1;}
+             }
+        .q{
+        
+            height: 10px;
+            width: 10px;
+            animation-name: quo;
+            position:relative;
+            animation-duration: 10s;
+           color:blue;
+            
+        
+        }
+        /* @keyframes quo1{
+            0%{top: 0px;left: 0px;width: 1px;height: 1px;opacity: -2;}
+            100%{top:-20000;left:-510px;width: 50px;font-size: 50px;opacity: 1;}
+
+             }
+        .q1{
+        
+            height: 10px;
+            width: 10px;
+            animation-name: quo1;
+            position:relative;
+            animation-duration: 10s;
+           color:blue;
+            
+        
+        } */
+
+
+    </style>
+</head>
+<body>
+    <div style="background: linear-gradient(orange,white,green);">
+    <img class="n" src="IMAGES/indian flag.jpg" >
+    <div class="m"></div><br>
+    <div>
+        <div class="b"></div>
+        <div class="b1"></div>
+        <div class="b2"></div>
+    </div>
+    <img class="s" src="IMAGES/students-removebg-preview.png">
+    <img class="s1" src="IMAGES/solider-removebg-preview.png">
+    <span class="s2"><i>INDIA</i></span>
+    
+    <img class="s3" src="IMAGES/star">
+    <img class="s4" src="IMAGES/star">
+    <img class="s5" src="IMAGES/star">
+    <img class="s6" src="IMAGES/star">
+    <span class="q"><i>JAI JAWAN</i><img src="IMAGES/soldiers1.jpg" height="50px" width="50px"><i>JAI KISSAN</i><img src="IMAGES/farmer.jpg" height="50px" width="50px"></span><br>
+    
+</div>
+</body>
+</html>
